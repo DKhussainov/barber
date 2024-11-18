@@ -1,0 +1,233 @@
+* {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 1440px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 115px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+header .title {
+  padding-right: 110px;
+}
+header .left {
+  display: flex;
+  justify-content: center;
+}
+header nav {
+  display: flex;
+  gap: 30px;
+}
+header nav ul {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  overflow: visible;
+}
+header nav ul li {
+  padding-top: 50px;
+  color: #163561;
+  font-family: Catamaran;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 133.6%;
+  letter-spacing: 0%;
+  overflow: visible;
+  list-style: none;
+}
+header nav .home {
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 65px;
+  padding-top: 50px;
+  color: white;
+  background: #a3c1ef;
+}
+header .right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding-left: 400px;
+}
+header .right button {
+  border-radius: 20px;
+  background: #99baed;
+  width: 130px;
+  height: 50px;
+  border: none;
+  color: white;
+  color: white;
+  font-family: Catamaran;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 150.6%;
+  letter-spacing: 3%;
+}
+
+#hairstyle {
+  display: flex;
+  gap: 24px;
+}
+#hairstyle .text {
+  padding-top: 120px;
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  flex-direction: column;
+}
+#hairstyle .text h2 {
+  font-family: Catamaran;
+  font-size: 62px;
+}
+#hairstyle .text p {
+  color: #153461;
+  font-family: Catamaran;
+  font-size: 25px;
+  line-height: 150.6%;
+  overflow: visible;
+}
+#hairstyle .text button {
+  border-radius: 20px;
+  background: #99baed;
+  width: 130px;
+  height: 50px;
+  color: white;
+  font-family: Catamaran;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 150.6%;
+  letter-spacing: 3%;
+  border: none;
+}
+#hairstyle .img {
+  padding-top: 49px;
+}
+
+#history {
+  display: flex;
+  gap: 80px;
+  padding-top: 150px;
+}
+#history .right {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+}
+#history .right h2 {
+  font-family: Catamaran;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 150.6%;
+  letter-spacing: 3%;
+  overflow: visible;
+}
+#history .right p {
+  color: #153461;
+  font-family: Catamaran;
+  font-size: 20px;
+  overflow: visible;
+}
+#history .right button {
+  border-radius: 20px;
+  background: #99baed;
+  width: 130px;
+  height: 50px;
+  color: white;
+  font-family: Catamaran;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 150.6%;
+  letter-spacing: 3%;
+  border: none;
+}
+
+#services {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 100px;
+}
+#services h2 {
+  font-family: Catamaran;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 116.6%;
+  letter-spacing: 3%;
+  text-align: center;
+  overflow: visible;
+}
+#services .cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding-top: 80px;
+}
+#services .cards h5 {
+  color: #163561;
+  font-family: Catamaran;
+  font-size: 25px;
+}
+#services .cards p {
+  color: #153461;
+  font-family: Catamaran;
+  font-size: 16px;
+}
+#services .cards .picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 65px;
+  height: 70px;
+  border-radius: 13px;
+  box-shadow: 0px 1px 0px 0px #008fdd;
+  background: #e5ecfe;
+  overflow: visible;
+}
+#services .cards .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 35px;
+  width: 260px;
+  height: 300px;
+  border-radius: 29px;
+  box-shadow: 0px 5px 0px 0px #99baed;
+  background: #fafbff;
+}
+#services .cards .blue {
+  border-radius: 29px;
+  background: #99baed;
+}
+#services .cards .blue h5 {
+  color: white;
+}
+#services .cards .blue p {
+  color: white;
+}

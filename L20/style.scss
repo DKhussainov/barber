@@ -1,0 +1,296 @@
+* {
+    box-sizing: border-box;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+
+}
+
+.container {
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 115px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+
+    .title {
+        padding-right: 110px;
+    }
+
+    .left {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav {
+        display: flex;
+        gap: 30px;
+
+
+
+        ul {
+            display: flex;
+            gap: 30px;
+            align-items: center;
+            overflow: visible;
+
+
+            li {
+                padding-top: 50px;
+                color: rgb(22, 53, 97);
+                font-family: Catamaran;
+                font-size: 25px;
+                font-weight: 500;
+                line-height: 133.6%;
+                letter-spacing: 0%;
+                overflow: visible;
+                list-style: none;
+
+
+
+            }
+        }
+
+        .home {
+            border-radius: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100px;
+            width: 65px;
+            padding-top: 50px;
+            color: white;
+
+
+            background: rgb(163, 193, 239);
+        }
+    }
+
+    .right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        padding-left: 400px;
+
+        button {
+            border-radius: 20px;
+
+            background: rgb(153, 186, 237);
+            width: 130px;
+            height: 50px;
+            border: none;
+            color: white;
+            color: rgb(255, 255, 255);
+            font-family: Catamaran;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 150.6%;
+            letter-spacing: 3%;
+
+        }
+    }
+
+
+
+}
+
+
+#hairstyle {
+    display: flex;
+    gap: 24px;
+
+
+    .text {
+        padding-top: 120px;
+        display: flex;
+        justify-content: center;
+        gap: 35px;
+        flex-direction: column;
+
+
+        h2 {
+            font-family: Catamaran;
+            font-size: 62px;
+
+        }
+
+        p {
+            color: rgb(21, 52, 97);
+            font-family: Catamaran;
+            font-size: 25px;
+            line-height: 150.6%;
+            overflow: visible;
+
+        }
+
+        button {
+            border-radius: 20px;
+
+            background: rgb(153, 186, 237);
+            width: 130px;
+            height: 50px;
+            color: rgb(255, 255, 255);
+            font-family: Catamaran;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 150.6%;
+            letter-spacing: 3%;
+            border: none;
+
+        }
+    }
+
+    .img {
+        padding-top: 49px;
+    }
+
+}
+
+
+#history {
+    display: flex;
+    gap: 80px;
+    padding-top: 150px;
+
+
+    .right {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 50px;
+
+
+        h2 {
+            font-family: Catamaran;
+            font-size: 70px;
+            font-weight: 700;
+            line-height: 150.6%;
+            letter-spacing: 3%;
+
+            overflow: visible;
+        }
+
+        p {
+            color: rgb(21, 52, 97);
+            font-family: Catamaran;
+            font-size: 20px;
+            overflow: visible;
+
+
+        }
+
+        button {
+            border-radius: 20px;
+
+            background: rgb(153, 186, 237);
+            width: 130px;
+            height: 50px;
+            color: rgb(255, 255, 255);
+            font-family: Catamaran;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 150.6%;
+            letter-spacing: 3%;
+            border: none;
+
+        }
+    }
+}
+
+#services {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 100px;
+    
+
+
+    h2 {
+        font-family: Catamaran;
+        font-size: 70px;
+        font-weight: 700;
+        line-height: 116.6%;
+        letter-spacing: 3%;
+        text-align: center;
+        overflow: visible;
+    }
+
+
+    .cards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        padding-top: 80px;
+
+        h5 {
+            color: rgb(22, 53, 97);
+            font-family: Catamaran;
+            font-size: 25px;
+        }
+
+        p {
+            color: rgb(21, 52, 97);
+            font-family: Catamaran;
+            font-size: 16px;
+        }
+
+        .picture {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 65px;
+            height: 70px;
+            border-radius: 13px;
+
+            box-shadow: 0px 1px 0px 0px rgb(0, 143, 221);
+            background: rgb(229, 236, 254);
+            overflow: visible;
+        }
+
+
+        .card {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 35px;
+            width: 260px;
+            height: 300px;
+            border-radius: 29px;
+
+            box-shadow: 0px 5px 0px 0px rgb(153, 186, 237);
+            background: rgb(250, 251, 255);
+        }
+
+        .blue {
+            border-radius: 29px;
+
+            background: rgb(153, 186, 237);
+            h5{
+                color: white;
+            }
+            p{
+                color: rgb(255, 255, 255);
+            }
+        }
+
+    }
+}
